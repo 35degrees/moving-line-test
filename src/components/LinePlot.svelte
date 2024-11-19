@@ -19,7 +19,7 @@
 
 	$effect(() => {
 		d3.select(gy).call(d3.axisLeft(y));
-		d3.select(gx).call(d3.axisBottom);
+		d3.select(gx).call(d3.axisBottom(x));
 	});
 </script>
 
