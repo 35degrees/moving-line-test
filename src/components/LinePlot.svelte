@@ -33,3 +33,11 @@
 		{/each}
 	</g>
 </svg>
+
+<style>
+	svg {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+</style>

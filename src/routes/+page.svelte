@@ -12,3 +12,13 @@
 <div onmousemove={onMousemove}>
 	<LinePlot {data} />
 </div>
+
+<style>
+	div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		width: 100vw;
+	}
+</style>
